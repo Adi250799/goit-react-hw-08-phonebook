@@ -1,0 +1,9 @@
+.MainHeader {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,39 @@
+.FormMainBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.FormBox {
+    border: 1px solid white;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.FormBox > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.NameField, .NumberField {
+    width: 290px;
+    height: 20px;
+}
+
+.FormButton {
+    margin-top: 10px;
+} 
+
+.Error {
+    color: crimson;
+    background-color: red;
+}
